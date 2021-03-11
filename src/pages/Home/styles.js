@@ -37,8 +37,12 @@ export const Templates = styled.nav`
 
   button {
     background: transparent;
-    border: 0;
+    border: 2px solid transparent;
     margin-right: 10px;
+
+    &.selected {
+      border-color: #4395d8; 
+    }
 
     img {
       height: 53px;
