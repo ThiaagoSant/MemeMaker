@@ -13,7 +13,7 @@ const Home = () => {
     (async () => {
       const resp = await fetch("https://api.imgflip.com/get_memes"),
         {
-          data: { memes },
+          data: { memes},
         } = await resp.json();
       setTemplates(memes);
     })();
